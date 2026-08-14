@@ -33,7 +33,7 @@ permissions:
   statuses: read
 
 env:
-  VCPKG_COMMITTISH: ef7dbf94b9198bc58f45951adcf1f041fcbc5ea0
+  VCPKG_COMMITTISH: 84bab45
 
 jobs:
   build_windows:
