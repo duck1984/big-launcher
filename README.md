@@ -1,4 +1,5 @@
 # big-launcher
+## FOR COMPILATION
 **big-launcher** is a work-in-progress HTPC application launcher. The design is loosely based on the [Roku UI](https://www.techhive.com/wp-content/uploads/2022/01/rokuui-100899030-orig.jpg), consisting of a sidebar menu on the left, and selectable apps on the right. This project is intended to be the successor to my other HTPC project, [Flex Launcher](https://github.com/complexlogic/flex-launcher). Compared to Flex Launcher, big-launcher will be more graphically advanced, but less customizable. The program will be written in C++ and utilize SDL for graphics.
 
 "big-launcher" is a temporary working title only; prior to release, a proper title will be chosen. If you have a suggestion for what the program title should be, please reach out with via an Issue or Discussion topic. If you have graphic design skills, I could also use help in creating the application logo/icon.
