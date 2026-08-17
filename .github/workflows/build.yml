@@ -45,7 +45,7 @@ jobs:
     env:
       CMAKE_BUILD_TYPE: Release
       CMAKE_GENERATOR: Visual Studio 17 2022
-      VCPKG_TRIPLET: x64-windows-release
+      VCPKG_TRIPLET: x64-windows-static-release
 
     steps:
       - name: Checkout Git repository
