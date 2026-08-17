@@ -3,7 +3,7 @@
       "sdl3",
       {
         "name": "sdl3-image",
-        "features": ["jpeg", "png", "webp"]
+        "features": ["jpeg", "png"]
       },
       "sdl3-ttf",
       "fmt",
