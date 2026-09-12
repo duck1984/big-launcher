@@ -1,3 +1,13 @@
+# A note from Duck1984
+
+Thanks to complexlogic for this awesome launcher. This fork was created ONLY because there was no binary release/download for the latest, and the build action was failing in the complexlogic repo. I wanted to be able to use the latest version since it fixed some specific issues I was having.
+
+No code was modified from the latest (at the time of this release, 20260817) complexlogic version, other than removal of webp image support. The source build tool was failing because the workflow was pinned to an old version of vcpkg whose getopt-win32 recipe still pointed to the now-dead xiaozhuai/getopt-win32 repository. Updated the VCPKG_COMMITTISH value in the YAML to a newer vcpkg commit, getopt-win from ludvikjerabek, which is the current upstream source. I am sharing the resulting windows binary for other to use.
+
+- Support for .webp image type was causing issues for me with compiling so I removed it, which is really not that big of a deal since png and jpg can be used in its place.
+
+- The only other major change I made was adding in the dependecies. Without them it would compile but fail when launched, throwing missing dll errors. With dependecies added in, it now works.
+
 # big-launcher
 **big-launcher** is a work-in-progress HTPC application launcher. The design is loosely based on the [Roku UI](https://www.techhive.com/wp-content/uploads/2022/01/rokuui-100899030-orig.jpg), consisting of a sidebar menu on the left, and selectable apps on the right. This project is intended to be the successor to my other HTPC project, [Flex Launcher](https://github.com/complexlogic/flex-launcher). Compared to Flex Launcher, big-launcher will be more graphically advanced, but less customizable. The program will be written in C++ and utilize SDL for graphics.
 
