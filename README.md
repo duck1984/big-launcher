@@ -8,6 +8,8 @@ No code was modified from the latest (at the time of this release, 20260817) com
 
 - The only other major change I made was adding in the dependencies. Without them it would compile but fail when launched, throwing missing dll errors. With dependencies added in, it now works.
 
+**NOTE/DISCLAIMER:** This is the first fork for me, and **AI was used** to help with code fixes. 
+
 # big-launcher
 **big-launcher** is a work-in-progress HTPC application launcher. The design is loosely based on the [Roku UI](https://www.techhive.com/wp-content/uploads/2022/01/rokuui-100899030-orig.jpg), consisting of a sidebar menu on the left, and selectable apps on the right. This project is intended to be the successor to my other HTPC project, [Flex Launcher](https://github.com/complexlogic/flex-launcher). Compared to Flex Launcher, big-launcher will be more graphically advanced, but less customizable. The program will be written in C++ and utilize SDL for graphics.
 
